@@ -1,62 +1,134 @@
-Project Overview:
-This project focuses on fitting, interpreting, and evaluating regression models using the AmesHousing dataset. The primary goal is to identify relationships between housing features and sale price while implementing diagnostic techniques to detect and correct common modeling issues, such as overfitting, multicollinearity, nonlinearity, and outliers.
+Ames Housing Regression Analysis
+Project Overview
 
-Purpose of the Assignment:
+This project analyzes the AmesHousing dataset to explore and model relationships between various housing features and sale price. Using regression modeling techniques, the analysis aims to identify key predictors that influence home values while addressing modeling challenges such as multicollinearity, outliers, nonlinearity, and overfitting.
 
-Develop the ability to interpret and evaluate regression models using standard R functions.
+Objectives
 
-Apply diagnostic methods to ensure model validity and accuracy.
+Develop and interpret multiple linear regression models using R.
 
-Correct issues in regression models to improve predictive performance.
+Apply diagnostic techniques to evaluate model performance and assumptions.
 
-Select the best predictive model from multiple candidates using all-subsets regression.
+Detect and correct issues such as heteroscedasticity and multicollinearity.
 
-Key Skills Applied:
+Compare candidate models using all-subsets regression and select the optimal one.
 
-Data preprocessing: handling missing values and preparing datasets for modeling.
+Communicate insights through visualizations, summaries, and statistical interpretation.
 
-Exploratory data analysis (EDA): descriptive statistics, correlation matrices, and scatterplots.
+Dataset Description
 
-Regression modeling: fitting multivariate linear regression models and interpreting coefficients.
+Name: AmesHousing.txt
+Source: Ames, Iowa Assessor’s Office
+Size: 2,930 observations × 82 variables
+Description: Contains residential property data from Ames, Iowa, used to estimate assessed values and predict sale prices from 2006–2010.
 
-Diagnostic techniques: detecting multicollinearity, evaluating residual plots, and identifying outliers.
+Variable Types
 
-Model selection: comparing models and choosing the optimal predictors using automated methods.
+Nominal: 23
 
-Data visualization: creating plots and charts to communicate findings effectively.
+Ordinal: 23
 
-Tools and Methods:
+Discrete: 14
 
-R programming language and relevant libraries (ggplot2, corrplot, ggcorrplot, leaps, etc.)
+Continuous: 20
 
-Statistical concepts: linear regression, correlation analysis, multicollinearity, residual diagnostics, and model selection.
+Identifiers: 2
 
-Visualization techniques: scatterplots, regression plots, correlation heatmaps.
+Key variables include:
 
-Project Deliverables:
+SalePrice — Sale price of the house (dependent variable)
 
-R Script with all analysis steps under the heading Module 6.
+Lot.Frontage, Overall.Qual, Year.Built, MS.SubClass — predictor variables used in the regression model
 
-Word or PDF report including:
+Additional categorical, ordinal, and continuous features describing lot, structure, and quality characteristics
 
-Title page, introduction, analysis, conclusion/interpretation, and references.
+Tools and Methods
 
-Graphs, charts, and tables with interpretation.
+Language: R
 
-Appendix containing all R code used for the analysis.
+Key Libraries: ggplot2, corrplot, ggcorrplot, leaps, car, dplyr
 
-Expected Outcomes:
+Statistical Methods:
 
-Improved understanding of regression diagnostics and model evaluation.
+Multiple linear regression (lm)
 
-Identification of relationships between housing features and sale prices.
+Model diagnostics (residuals, leverage, Q-Q plots)
 
-Selection of the optimal regression model based on predictive performance and statistical validity.
+Variance Inflation Factor (VIF) for multicollinearity
 
-Learning Competencies Demonstrated:
+Model selection with all-subsets regression
 
-Advanced regression modeling and diagnostics (CLO1, CLO2).
+Analysis Workflow
 
-Handling complex datasets and improving predictive models.
+Data Preprocessing:
 
-Communicating technical results effectively for decision-making (PLOs: Communicating with Data, Business Analytics Agility, Statistics & Math, Advanced Analytics Tools).
+Imported the dataset and handled missing values.
+
+Reviewed variable distributions and removed non-informative columns.
+
+Exploratory Data Analysis (EDA):
+
+Generated summary statistics and correlation matrices.
+
+Created heatmaps and scatterplots to visualize relationships.
+
+Regression Modeling:
+
+Built a multiple linear regression model with four predictors:
+SalePrice ~ Lot.Frontage + Overall.Qual + Year.Built + MS.SubClass.
+
+Evaluated model fit using R², Adjusted R², and F-statistic.
+
+Diagnostics and Refinement:
+
+Checked residual plots for normality and homoscedasticity.
+
+Calculated VIF values — all were below 5, indicating low multicollinearity.
+
+Identified and examined outliers via residual vs. leverage plots.
+
+Model Comparison:
+
+Refined model to exclude MS.SubClass, improving interpretability.
+
+Confirmed robustness of remaining predictors (Lot.Frontage, Overall.Qual, Year.Built).
+
+Key Findings
+
+Overall Quality had the strongest positive correlation with sale price.
+
+Lot Frontage and Year Built were also significant predictors.
+
+Multicollinearity was minimal across predictors.
+
+Residuals indicated a near-normal distribution with mild heteroscedasticity.
+
+Final model achieved Adjusted R² ≈ 0.685, indicating a good model fit for this dataset.
+
+Deliverables
+
+R Script: Module6_AmesHousing_Regression.R — contains all preprocessing, modeling, and diagnostics code.
+
+Report: AmesHousing_Regression_Report.pdf — includes introduction, analysis, visualizations, interpretations, and references.
+
+Appendix: All R output and plots (correlation matrices, diagnostic charts, regression summaries).
+
+Learning Outcomes
+
+Gained hands-on experience applying regression diagnostics and model selection methods.
+
+Developed proficiency in interpreting regression outputs and residual plots.
+
+Strengthened ability to communicate statistical insights using visual and written reports.
+
+Demonstrated data-driven reasoning to identify meaningful predictors in real estate markets.
+
+References
+
+Ames, Iowa Assessor’s Office (Data Source)
+
+Kuiper, S. (2008). Introduction to Multiple Regression: How Much Is Your Car Worth? Journal of Statistics Education, 16(3).
+
+Pardoe, I. (2008). Modeling Home Prices Using Realtor Data. Journal of Statistics Education, 16(2).
+
+ChatGPT (2024). Model interpretation and code assistance for regression diagnostics.
