@@ -1,62 +1,43 @@
-Nonparametric Statistical Methods, Sampling, and Simulation in R
-Overview
+Nonparametric Statistics, Sampling, and Simulation in R: Applying Tests, Correlations, and Probabilistic Modeling
 
-This project demonstrates the application of nonparametric statistical methods, sampling techniques, and simulation to solve real-world problems. Using R and MS Excel, we analyze datasets to test hypotheses, compute correlations, and simulate experiments where traditional parametric assumptions may not hold. The goal is to develop practical skills for implementing these methods and interpreting results.
+Overview:
 
-Objectives
+This project demonstrates the application of nonparametric statistical methods, sampling techniques, and simulation to solve real-world problems. Using R and MS Excel, I analyzed datasets to test hypotheses, compute correlations, and simulate experiments where traditional parametric assumptions may not hold. The goal is to develop practical skills for implementing these methods and interpreting results.
 
-Apply nonparametric hypothesis tests, including:
+Objectives:
 
-Sign test
+- Apply nonparametric hypothesis tests, including sign test, Wilcoxon rank sum test, Wilcoxon signed-rank test, Kruskal-Wallis test, and runs test.
 
-Wilcoxon rank sum test
+- Compute the Spearman rank correlation coefficient to assess monotonic relationships between variables.
 
-Wilcoxon signed-rank test
+- Explore the four basic sampling methods and recognize biases in survey questions.
 
-Kruskal-Wallis test
+- Use simulation techniques to model probability experiments and estimate expected outcomes.
 
-Runs test
+Methodology:
 
-Compute the Spearman rank correlation coefficient to assess monotonic relationships between variables.
+Hypothesis Testing
 
-Explore the four basic sampling methods and recognize biases in survey questions.
+- For each problem, state the null and alternative hypotheses, identify the claim, determine critical values, compute test statistics, and make decisions.
 
-Use simulation techniques to model probability experiments and estimate expected outcomes.
+- Evaluate claims such as median attendance at football games, lottery ticket sales, prison sentence lengths, and baseball game outcomes using appropriate nonparametric tests.
 
-Methodology
+Correlation Analysis
 
-Hypothesis Testing:
+- Calculate Spearman rank correlation coefficients to examine relationships between paired datasets (e.g., subway and commuter rail passenger counts).
 
-For each problem, state the null and alternative hypotheses, identify the claim, determine critical values, compute test statistics, and make decisions.
+Simulation
 
-Evaluate claims such as median attendance at football games, lottery ticket sales, prison sentence lengths, and baseball game outcomes using appropriate nonparametric tests.
+- Use random number generation to simulate experiments such as collecting all prizes in caramel corn boxes or winning a lottery.
 
-Correlation Analysis:
+- Compute expected values through repeated simulations to understand probabilistic outcomes.
 
-Calculate Spearman rank correlation coefficients to examine relationships between paired datasets (e.g., subway and commuter rail passenger counts).
+Data Handling
 
-Simulation:
+- Analyze datasets from sources including the OECD, American Public Transportation Association, and other real-world studies.
 
-Use random number generation to simulate experiments such as collecting all prizes in caramel corn boxes or winning a lottery.
+- Ensure reproducibility of results using R scripts and Excel worksheets.
 
-Compute expected values through repeated simulations to understand probabilistic outcomes.
-
-Data Handling:
-
-Analyze datasets from sources including the OECD, American Public Transportation Association, and other real-world studies.
-
-Ensure reproducibility of results using R scripts and Excel worksheets.
-
-Deliverables
-
-Completed problem sets demonstrating hypothesis testing, correlation analysis, and simulation.
-
-Summary tables, graphs, and figures to interpret results.
-
-R and/or Excel code included for reproducibility.
-
-Clear explanations and interpretations of all results with supporting conclusions.
-
-Conclusion
+Conclusion:
 
 This project emphasizes the practical application of nonparametric methods and simulation for statistical inference, especially when assumptions of parametric tests are violated. By comparing hypotheses, evaluating correlations, and simulating experiments, students gain experience in problem-solving and data-driven decision-making.
