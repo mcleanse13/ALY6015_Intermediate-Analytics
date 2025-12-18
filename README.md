@@ -1,44 +1,7 @@
-# ALY6015_Intermediate-Analytics
+ALY6015: Intermediate Analytics
 
-ALY 6015 builds on the foundations of ALY 6000 and ALY 6010, emphasizing data due diligence, reliability, and cleaning while expanding students’ ability to detect and validate patterns in data. The course introduces advanced statistical methods, including regression, chi-square, ANOVA, regularization, and generalized linear models, and emphasizes practical application of the scientific method in data analytics. Students gain hands-on experience with data management, re-engineering, exploration, and advanced modeling techniques, preparing them to derive actionable insights from complex datasets.
+ALY 6015 builds on the foundations of ALY 6000 and ALY 6010, emphasizing data due diligence, reliability, and cleaning while expanding our ability to detect and validate patterns in data. The course introduces advanced statistical methods, including regression, chi-square, ANOVA, regularization, and generalized linear models, and emphasizes practical application of the scientific method in data analytics. We gained a hands-on experience with data management, re-engineering, exploration, and advanced modeling techniques, preparing us to derive actionable insights from complex datasets.
 
-Program Learning Outcomes (PLOs):
+The program learning outcomes (PLOs) for this course emphasize both technical proficiency and strategic application in data analytics. We developed foundational knowledge in statistics and mathematics, enabling us to analyze and interpret data effectively. We also gained expertise in business intelligence, learning to communicate and defend the significance of our analytical work across local, national, and global contexts. Through advanced analytics and technology systems, we applied sophisticated tools and methods to address complex data challenges, while also understanding governance, policy, ethics, and leadership principles to advocate for responsible analytics practices. The program further cultivates business analytics agility, integrating analytics approaches into real-world problems for both tactical and strategic decision-making, and emphasizes business process management to extract actionable insights for organizational improvement. Finally, we developed the ability to communicate results effectively, creating reports and presentations that translate technical findings for diverse audiences.
 
-Statistics & Math: Demonstrate foundational statistical knowledge and skills for professional data analytics.
-
-Business Intelligence: Communicate and defend the significance of analytics work in local, national, or global contexts.
-
-Analytics Systems Technology / Advanced Analytics: Apply advanced tools and methods to data analysis challenges.
-
-Governance / Policy / Ethics / Leadership: Understand and advocate for ethical and governance principles in analytics.
-
-Business Analytics Agility: Apply analytics principles and tools to real-world problems for tactical and strategic decision-making.
-
-Business Process Management: Integrate analytics approaches to extract data-driven insights for process improvement.
-
-Communicating with Data: Create reports and presentations that effectively translate technical results for diverse audiences.
-
-Course Learning Outcomes:
-By completing ALY 6015, students will be able to:
-
-Use R effectively for data processing, analysis, and visualization.
-
-Develop advanced statistical models to interpret and predict outcomes.
-
-Apply generalized linear methods to answer strategic and operational questions.
-
-Prepare and clean complex datasets for advanced analysis.
-
-Implement multivariable and logistic regression to improve predictive outcomes.
-
-Key Skills Developed:
-
-Advanced data preparation and cleaning
-
-Application of multivariate statistics and predictive modeling
-
-Use of R programming for analytics
-
-Ability to interpret and communicate complex analytical results
-
-Insight into ethical, governance, and business implications of data analytics
+By completing this course, we built key skills that support these outcomes and learned to use R for data processing, visualization and analysis, and to prepare and clean complex datasets for advanced modeling. It develops proficiency in multivariable and logistic regression, generalized linear methods, and predictive modeling to interpret and forecast outcomes. We also gained advanced capabilities in data preparation, statistical modeling, and the interpretation of complex analytical results, while also understanding the ethical, governance, and business implications of data-driven decision-making.
