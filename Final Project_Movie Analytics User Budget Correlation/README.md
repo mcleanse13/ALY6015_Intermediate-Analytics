@@ -1,4 +1,4 @@
-Movie Analytics: User Interactions, Budget, and Popularity
+Final Project - Movie Analytics: User Interactions, Budget, and Popularity
 
 Overview
 
